@@ -58,6 +58,12 @@ Description : 유저와 프로그램 사이에 질의응답이 모두 끝나면 
 8)재시작  
 Actor : User  
 Description : 질의응답을 하던 중 상황이 바뀌거나 다시 시작하고 싶을 때 프로그램을 처음부터 다시 시작한다.
+9)알레르기 기반 필터링
+Actor : User
+Description : 사용자가 입력한 알레르기 정보를 기반으로 해당 재료가 포함된 음식 후보를 추천 목록에서 제외한다.
+10)추천 결과 피드백
+Actor : User
+Description : 추천된 음식에 대해 만족/불만족을 선택하여 향후 추천 정확도 향상에 반영한다.
 
 4.Concept of operation  
 1)질문하기  
