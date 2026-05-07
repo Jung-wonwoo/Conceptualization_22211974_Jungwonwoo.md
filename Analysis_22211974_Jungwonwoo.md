@@ -7,6 +7,7 @@
 
 05/03/2026/1.00/First draft/정원우
 05/04/2026/1.01/User Interface prototype 작성/정원우
+05/07/2026/1.02/Last draft/정원우
 
 1.Introduction  
 1) Executive Summary  
