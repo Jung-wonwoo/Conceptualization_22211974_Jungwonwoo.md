@@ -3,7 +3,7 @@
 이메일:wonu8866@naver.com
 
 프로그램 이름:든든램프  
-<img width="434" height="433" alt="image" src="https://github.com/user-attachments/assets/7a92152a-7cc0-4918-a7bc-d6bd2587968c" />
+<img width="531" height="426" alt="image" src="https://github.com/user-attachments/assets/61ff5bfb-5f00-4ed3-8f56-9b4c21a7e338" />
 
 history  
 2026.03.19. 1.0.0 First draft 정원우  
