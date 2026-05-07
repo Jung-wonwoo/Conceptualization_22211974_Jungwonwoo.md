@@ -3,7 +3,7 @@
 이메일:wonu8866@naver.com
 
 프로그램 이름:든든램프
-<img width="434" height="433" alt="image" src="https://github.com/user-attachments/assets/bcde8e00-21ff-488d-b599-fd64892d93f7" />
+<img width="531" height="426" alt="image" src="https://github.com/user-attachments/assets/61ff5bfb-5f00-4ed3-8f56-9b4c21a7e338" />
 
 05/03/2026/1.00/First draft/정원우
 05/04/2026/1.01/User Interface prototype 작성/정원우
@@ -262,34 +262,70 @@ ex) 추천 음식, 날짜, 선택 결과
 ex) 화면 출력, 버튼 입력 처리  
 
 4.User Interface prototype  
+<img width="247" height="406" alt="image" src="https://github.com/user-attachments/assets/64f06de0-0faf-432a-83c7-b2d202145b2a" />
+
 1) Main Screen (메인 화면)  
 chat-image메인 화면에는 "든든램프" 로고와 함께 추천 시작 버튼, 이전 기록 조회 버튼이 표시된다. 화면은 단순한 구조로 구성되어 있으며,
 사용자는 추천 시작 버튼을 통해 음식 추천 프로세스를 시작할 수 있다.  
 사용자가 앱을 실행하면 가장 먼저 보게 되는 화면이다.  
 추천 시작 버튼을 클릭하면 질문 기반 추천 프로세스로 이동하며, 이전 기록 버튼을 통해 과거 추천 결과를 확인할 수 있다.  
+<img width="227" height="402" alt="image" src="https://github.com/user-attachments/assets/8a833e73-313f-4ce0-87df-494014c9bdb9" />
+
 2) Question Screen (질문 화면)
 chat-image질문 화면에는 중앙에 질문 텍스트가 표시되며, 하단에는 "예", "아니오" 버튼이 있다. 추가로 "건너뛰기", "되돌리기" 버튼이 함께 배치되어 있다.  
 시스템이 사용자에게 음식 관련 질문을 제시하는 화면이다.  
 사용자는 "예/아니오" 버튼을 통해 응답할 수 있으며, 답변이 어려운 경우 건너뛰기 기능을 사용할 수 있다.  
 또한, 이전 답변을 수정하고 싶을 경우 되돌리기 기능을 사용할 수 있다.  
+<img width="240" height="406" alt="3" src="https://github.com/user-attachments/assets/6753b8ee-531a-4b07-b3fb-e60750a8d673" />
+
 3) Result Screen (추천 결과 화면)  
 chat-image추천 결과 화면에는 추천된 음식의 이미지와 이름, 간단한 설명이 표시된다. 하단에는 재추천 버튼과 피드백 버튼(추천/비추천)이 존재한다.  
 모든 질문이 완료되면 최종 추천 결과가 출력되는 화면이다.  
 추천된 음식의 이미지 및 정보를 확인할 수 있으며, 사용자는 결과에 대해 만족/불만족 피드백을 제공할 수 있다.  
 재추천 버튼을 통해 새로운 추천을 다시 받을 수 있다.  
+<img width="212" height="392" alt="4" src="https://github.com/user-attachments/assets/52403b17-dc4d-4751-b459-7329484b3a4f" />
+
 4) Allergy Setting Screen (알레르기 설정 화면)  
 chat-image알레르기 설정 화면에는 다양한 재료 목록이 체크박스 형태로 나열되어 있으며, 하단에 저장 버튼이 있다.  
 사용자가 특정 음식이나 재료를 제외하기 위한 설정 화면이다.  
 사용자는 알레르기 항목을 선택한 후 저장 버튼을 누르면,이후 추천 과정에서 해당 음식이 자동으로 제외된다.  
+<img width="210" height="398" alt="5" src="https://github.com/user-attachments/assets/1d0eb1c9-39b8-45f6-8f0a-d37cb0ef592c" />
+
 5) History Screen (이전 내역 조회 화면)  
 chat-image이전 추천 기록들이 리스트 형태로 나열되어 있으며, 각 항목에는 추천 음식 이름과 날짜가 표시된다.  
 사용자가 과거에 추천받았던 음식들을 확인할 수 있는 화면이다.  
 리스트 형태로 제공되며, 사용자는 이전에 만족했던 메뉴를 다시 확인할 수 있다.  
+<img width="247" height="413" alt="6" src="https://github.com/user-attachments/assets/167197e1-cd24-4f5e-bf3f-e9ef7d66b5eb" />
+
 6) Restart Flow (재시작 화면 흐름)  
 chat-image재시작 버튼을 누르면 확인 팝업창이 표시되며, 확인 시 모든 데이터가 초기화되고 처음 질문 화면으로 돌아간다.  
 추천 과정 도중 재시작 버튼을 누르면 현재까지의 모든 응답 데이터가 초기화된다.  
 이후 시스템은 처음 질문 단계로 돌아가 새로운 추천을 진행한다.  
+<img width="247" height="398" alt="7" src="https://github.com/user-attachments/assets/61e8fa0d-daa0-4625-b2aa-e24e1d8c6264" />
+
 7) New Menu Register Screen (새 메뉴 등록 화면)  
 chat-image사용자가 음식 이름과 특징을 입력할 수 있는 입력창이 있으며, 저장 버튼이 하단에 위치한다.  
 추천 결과가 사용자의 의도와 다를 경우, 사용자가 직접 새로운 음식을 추가할 수 있는 화면이다.  
 음식 이름과 특징을 입력하면 시스템 데이터베이스에 반영된다.  
+
+5.Glossary  
+사용자 (User)	: 든든램프 시스템을 사용하는 일반 사용자  
+질문 (Question)	: 사용자의 취향을 파악하기 위해 시스템이 제시하는 항목  
+응답 (Answer)	: 사용자가 질문에 대해 선택하는 예/아니오 값  
+음식 (Food)	: 추천 대상이 되는 메뉴 데이터  
+후보군 (Candidate Set)	: 조건에 따라 남아있는 음식들의 집합  
+가중치 (Weight)	: 특정 음식이 정답일 확률을 나타내는 값  
+엔트로피 (Entropy)	: 데이터의 불확실성을 나타내는 척도  
+정보 이득 (Information Gain)	: 질문을 통해 줄어드는 불확실성의 정도  
+베이지안 확률 모델	: 새로운 정보를 반영하여 확률을 갱신하는 통계적 방법  
+알레르기 설정 (Allergy Setting)	: 특정 음식 또는 재료를 추천에서 제외하기 위한 기능  
+추천 결과 (Recommendation Result)	: 시스템이 최종적으로 사용자에게 제안하는 음식  
+세션 (Session)	: 사용자의 추천 진행 상태를 저장하는 데이터 단위  
+콜드 스타트 (Cold Start)	: 초기 데이터 부족으로 추천 정확도가 낮은 상태  
+UI (User Interface)	: 사용자와 시스템 간 상호작용을 위한 화면 구성  
+데이터베이스 (Database)	: 음식 정보 및 사용자 데이터를 저장하는 공간  
+
+6.References
+1) Information Theory 관련 자료  
+2) Bayesian Probability Model 관련 자료  
+3) Recommendation System 관련 자료  
